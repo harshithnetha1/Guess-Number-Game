@@ -1,4 +1,5 @@
-var actualNumber=Math.floor(Math.random()*10)+1;
+var actualNumber=Math.floor(Math.random()*20)+1;
+console.log(actualNumber)
 let score=20;
 document.querySelector('.sub').addEventListener('click',function(){
    
@@ -25,7 +26,8 @@ document.querySelector('.sub').addEventListener('click',function(){
         document.querySelector('.statement').textContent="Congratulations";
         score=score;
         document.querySelector('.score').textContent=score;
-        document.querySelector('.scoreMessage').textContent=`Your Highest Score `
+        document.querySelector('.scoreMessage').textContent=`Your Scored `
+        document.querySelector('.sub').disabled=true;
         
 
     }
