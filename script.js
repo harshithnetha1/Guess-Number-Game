@@ -1,5 +1,4 @@
 var actualNumber=Math.floor(Math.random()*20)+1;
-console.log(actualNumber)
 let score=20;
 document.querySelector('.sub').addEventListener('click',function(){
    
